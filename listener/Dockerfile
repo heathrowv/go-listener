@@ -11,4 +11,4 @@ FROM alpine:3.18.2
 WORKDIR /app/
 COPY --from=builder /app/go-listener .
 EXPOSE 8080
-ENTRYPOINT ["app/go-listener"]
+ENTRYPOINT ["/app/go-listener"]
