@@ -2,12 +2,12 @@ A repo for simple listener app, written on Golang and ready for deployment
 
 
 
-##### Prerequisites
+## Prerequisites
 To run all mentioned tests, it is necessary to install the following tools:  
 [docker](https://docs.docker.com/engine/install/)  
 [kind](https://kind.sigs.k8s.io/docs/user/quick-start/#installation)  
   
-##### Build and run image locally
+## Build and run image locally
 After cloning the repository, change directory into app directory:
 ```
 cd listener
@@ -38,7 +38,7 @@ Back to repository root:
 cd ..
 ```
 
-##### Testing in k8s environment
+## Testing in k8s environment
 
 Run kind test cluster:
 ```
