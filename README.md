@@ -20,7 +20,7 @@ docker build -f Dockerfile -t << your custom tag >>  .
   
 Run the image locally on docker/podman:
 ```
-docker run “your tag” —expose [desired port]:8080
+docker run -d -p 8080:8080 << your custom tag >>
 ```
   
 Test connection making a request via curl:
